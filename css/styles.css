@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Dosis', sans-serif;
+    color: black;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+/* --SOBRE--- */
+
+a:hover {
+    color: rgb(73, 241, 73);
+}
+a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+main {
+    background-color:#f0e6da ;
+}
+
+.nav-bar {
+    max-width: 20%;
+    min-width: none;    
+    width: 100%;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    position: relative;
+    background-color: #2a613f;
+}
+
+a {
+    color: white;
+}
+
+.nav-container {
+    display: block;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+nav, ul, li {
+    padding: 0.4rem;
+    font-size: 1.5rem;
+}
+
+
+picture>.picture-img {
+    display: inline-block;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    border: 5px solid white;
+}
+
+.about-container, .knowledge,.goals{
+    font-size: 1.25rem;
+    display: inline-block;
+    height: 100vh;
+    text-align: left;
+    padding: 0.3rem;
+    width: 55%;
+    margin-left: 2rem;
+}
+
+.icons{
+    display: block;
+    
+}
+
+.contact-icon{
+    display: inline-block;
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 50%;
+    text-align: center;
+    border: 0.1rem solid;
+    margin-top: 6rem;
+    margin-right: 1.9rem;
+}
+
+.contact-icon:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.contact-icon:not(:hover) {
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#about-name{
+    line-height: 10rem;
+    margin-left: -10px;
+    font-size: 5rem;
+}
+
+.address {
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+strong {
+    color: green;
+}
+
+.contact {
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.contact>a {
+    color: black;
+}
+
+.contact>a:hover {
+    color: green;
+}
+
+.info {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    width: 38rem;
+}
+
+/* --CONHECIMENTOS--- */
+
+#sub-title {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    line-height: 1rem;
+    font-size: 2rem;
+}
+
+#knowledge-name {
+    line-height: 10rem;
+    margin-right: 10px;
+    font-size: 5rem;
+}
+
+.skill-images {
+    margin-top: 7.9rem;
+    margin-right: 1.1rem;
+    width: 100px;
+}
+
+.skills {
+    display: inline;
+}
+
+.skills:hover {
+    opacity: 0.8;
+    transform: scale(2);
+    transition: 0.4s;
+}
+
+.skills:not(:hover) {
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+/* --OBJETIVOS--- */
+
+#goals-name {
+    line-height: 10rem;
+    margin-right: 10px;
+    font-size: 5rem;
+}
+
+
+.professional-goals {
+    font-size: 1.25rem;
+}
+
+.personal-goals {
+    font-size: 1.25rem;
+}
+
+.pf-goals>li {
+    margin-top: .125rem;
+    font-size: 1.3rem;
+}
+
+.ps-goals>li {
+    margin-top: .125rem;
+    font-size: 1.3rem;
+}
